@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayu | Portfolio</title>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <!-- link CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  <!-- Link Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Awal Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-4" href="#">Ayu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-medium fs-5" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-medium fs-5" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-medium fs-5" aria-current="page" href="#galery">Galery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-medium fs-5" aria-current="page" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-normal fs-5" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"> Dropdown </a>
+            <ul class="dropdown-menu bg-info-subtle">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="col-md-4">
+          <form>
+            <div class="input-group">
+              <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                  <path
+                    d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+                  <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+                  <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+                </svg></span>
+              <input type="text" class="form-control" placeholder="Search Your Music Here" aria-label="Username"
+                aria-describedby="basic-addon1" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Awal jumbotron -->
+  <section class="jumbotron text-center" id="home">
+    <img src="assets/img/ayu.jpg" alt="Nur Wahda Ayu Zanjabila" width="200" height="200"
+      class="rounded-circle img-thumbnail" />
+    <h1 class="display-4">Nur Wahdah Ayu Zan Jabila</h1>
+    <p class="lead">20-03-2006 | Muallimat Bahrul Ulum</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,288L40,266.7C80,245,160,203,240,202.7C320,203,400,245,480,218.7C560,192,640,96,720,85.3C800,75,880,149,960,149.3C1040,149,1120,75,1200,74.7C1280,75,1360,149,1400,186.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="text-center m-3">
+        <div class="col">
+          <h2 class="fw-bold">About Me</h2>
+        </div>
+      </div>
+    </div>
+    <div class="accordion mt-4" id="accordionExample">
+      <div class="accordion-item bg-info-subtle">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Favorite
+            Music</button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">Cupid - Fifty Fifty, Rock With You - Seventeen, After Like - IVE, Fighting - BSS,
+            Ramadhan Tiba - Opick, Stereotype - StayC, OMG - NewJeans, New World - TWICE</div>
+        </div>
+      </div>
+      <div class="accordion-item bg-info-subtle">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Favorite Food</button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">Pukis, Telur Gulung, Siomay, Bakwan, Bakso, Mie Ayam, Donat, Batagor, Seblak,
+            Geprek, Piscok, Risol, Pentol, Mie Goreng, Papeda, Terang Bulan, Roti Bakar, Soto, Tahu Tek.</div>
+        </div>
+      </div>
+      <div class="accordion-item bg-info-subtle">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Favorite Idol</button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">The8 Seventeen, Fajar Alvian, M. Rian Ardianto, Seventeen, Twice, StayC, Suga BTS,
+            Renjun Chenle NCT Dream, Triarona, Cipung, Nagita Slavina, Pramudia, Yeremia, Apriani, Ahsan Setiawan dll.
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#FAD3E7" fill-opacity="1"
+        d="M0,288L40,266.7C80,245,160,203,240,202.7C320,203,400,245,480,218.7C560,192,640,96,720,85.3C800,75,880,149,960,149.3C1040,149,1120,75,1200,74.7C1280,75,1360,149,1400,186.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir About -->
+
+  <!-- Galery -->
+  <section id="galery">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2 class="fw-bold">My Galery</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center border-2">
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/satu.jpg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Me</h5>
+              <p class="card-text">biasa dipanggil Ayu, sekarang umur 17 tahun lagi belajar di madrasah Muallimat Bahrul
+                Ulum kelas 5. pelajaran favorit sebenarnya semua tapi paling favorit jelas Balaghoh, Qowaid Fiqih dan
+                MTK.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/delapan.jpg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Family</h5>
+              <p class="card-text">anak ketiga dari tujuh bersaudara, cewek sendiri woyy. sayang banget sama keluarga,
+                kakak dan adek serasa temen seumuran.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/enam.jpg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body ">
+              <h5 class="card-title fw-bold">School</h5>
+              <p class="card-text">
+                berasal dari siswi kelas 5E Muallimat yang walikelas nya adalah beliau yang sering ditakutin satu
+                sekolah saat ujian karena suka petal siswa yang rambutnya udah panjang, beliau Bapak Abdur Rozak Husni.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/sembilan.jpg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Village</h5>
+              <p class="card-text">Tinggal di dusun Gedang Desa Tambakrejo, pokoknya deket sama Musholla Ar-Rozaq.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/empat.jpg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Organization</h5>
+              <p class="card-text">ikut berkhidmah dalam sebuah Organisasi, yaitu IPNU IPPNU di Desa Tambakrejo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/tujuh.jpg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Origin</h5>
+              <p class="card-text">dulu sekolah Di Madrasah Ibtidaiyah Bahrul Ulum Tahun 2012-2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/seventeen.jpeg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">SEVENTEEN</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/jisung.jpg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Pacarku</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-info-subtle">
+            <img src="assets/img/fajri.jpeg" class="card-img-top img-thumbnail bg-info-subtle" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">FAJAR ALFIAN - RIAN ARDIANTO</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,288L40,266.7C80,245,160,203,240,202.7C320,203,400,245,480,218.7C560,192,640,96,720,85.3C800,75,880,149,960,149.3C1040,149,1120,75,1200,74.7C1280,75,1360,149,1400,186.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Galery -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2 class="fw-bold">Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+              <div class="input-group">
+                <span class="input-group-text bg-info-subtle"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path
+                      d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                  </svg></span>
+                <input type="text" class="form-control bg-info-subtle" placeholder="Username" aria-label="Username"
+                  aria-describedby="basic-addon1" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <div class="input-group">
+                <span class="input-group-text bg-info-subtle"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                  </svg></span>
+                <input type="email" class="form-control bg-info-subtle" placeholder="Email" aria-label="Email"
+                  aria-describedby="basic-addon1" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+              <textarea class="form-control bg-info-subtle" rows="5"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-info">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#F56EB3" fill-opacity="1"
+        d="M0,224L16,224C32,224,64,224,96,208C128,192,160,160,192,144C224,128,256,128,288,133.3C320,139,352,149,384,144C416,139,448,117,480,122.7C512,128,544,160,576,170.7C608,181,640,171,672,176C704,181,736,203,768,186.7C800,171,832,117,864,117.3C896,117,928,171,960,197.3C992,224,1024,224,1056,202.7C1088,181,1120,139,1152,138.7C1184,139,1216,181,1248,202.7C1280,224,1312,224,1344,202.7C1376,181,1408,139,1424,117.3L1440,96L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Footer -->
+  <footer class="text-center text-white pb-5" id="footer">
+    <p>Created With <i class="bi bi-heart-fill text-danger"></i> By <a href="" class="text-white fw-bold fs-5">Nur
+        Wahdah Ayu Zan Jabila </a></p>
+  </footer>
+  <!-- Akhir Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

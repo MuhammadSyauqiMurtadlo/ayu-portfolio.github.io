@@ -1,0 +1,25 @@
+body {
+  font-family: 'Nunito';
+  min-height: 2000px;
+}
+
+#nav {
+  background-color: #F56EB3;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #FAD3E7;
+}
+
+#galery {
+  background-color: #FAD3E7;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#footer {
+  background-color: #F56EB3;
+}
